@@ -14,3 +14,32 @@
 ## Skills
  * Study and improve: HTML | CSS | JS | Git | ..
  * Worckspace: VS Code
+
+
+## Code examples
+
+1. ```
+const sequenceSum = (begin, end) => {
+  if (begin > end) {
+    return NaN;
+  }
+  if (begin === end) {
+    return end;
+  }
+   return begin + sequenceSum(begin + 1, end);
+};
+```
+2. ```
+const smallestDivisor = (num) => {
+  if (num === 1) {
+    return num;
+  }
+  const iter = (del) => {
+    if (num % del === 0 || num === del) {
+      return del;
+    }
+    return iter(del + 1);
+  }
+return iter(2);
+};
+```
