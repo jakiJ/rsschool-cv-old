@@ -17,8 +17,8 @@
 
 
 ## Code examples
-
-1. ```
+ ```
+1.
 const sequenceSum = (begin, end) => {
   if (begin > end) {
     return NaN;
@@ -29,7 +29,8 @@ const sequenceSum = (begin, end) => {
    return begin + sequenceSum(begin + 1, end);
 };
 ```
-2. ```
+```
+2.
 const smallestDivisor = (num) => {
   if (num === 1) {
     return num;
