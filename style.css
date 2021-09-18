@@ -56,9 +56,9 @@ h3 {
     font-size: 27px;
 }
 
-.about {
+/* .about {
     padding-bottom: 50px;
-}
+} */
 
 .contact li {
     display: flex;
@@ -86,9 +86,19 @@ pre {
 }
 
 /*FOOTER*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.year {
+    font-size: 32px;
+    margin-right: 20px;
+    font-weight: 600;
+}
 
 .logo {
-    margin: 0 auto;
     width: 100px;
     max-height: 100px;
 }
