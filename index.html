@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV_Aminova_Julia</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel='stylesheet' href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <section class="section-header">
+            <div class="my-name-foto">
+                <div>
+                    <h1 class="my-name">Julia Aminova</h1>
+                    <h2>Frontend developer</h2>
+                </div>
+                <figure class="my-foto">
+                    <img src="./pig1.PNG" alt="portrait of me" class="my-foto-s">
+                </figure>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="main-section">
+
+            <div class="block-left">
+                <div class="about">
+                    <h3>About me</h3>
+                    <p>
+                        <summary>
+                            I like describe our life with help 'Markov property'.
+                            Of tell simple words this property says:
+                            future state depend of present state and undepend of past.
+                        </summary>
+                    </p>
+                </div>
+                <div class="contact">
+                    <h3>Contacts</h3>
+                    <ul>
+                        <li>
+                            <img src="./img/icons8-группа-сообщений-30.png" alt="mail">
+                            <a href='s98435@yandex.ru'>s98435@yandex.ru</a>
+                        </li>
+                        <li>
+                            <img src="./img/icons8-телефон-звонит-30.png" alt="phonenumber">
+                            <p>+7-982-782-70-84</p>
+                        </li>
+                        <li>
+                            <img src="./img/icons8-github-30.png" alt="github">
+                            <a href="https://github.com/jakiJ">jakiJ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="block-right">
+                <div class="skills">
+                    <h3>My skills</h3>
+                    <ul>
+                        <li>Study and improve: HTML | CSS | JS | Git | ..</li>
+                        <li>Worckspace: VS Code</li>
+                    </ul>
+                </div>
+                <div class="code">
+                    <h3>Code example</h3>
+
+                    <pre>
+                        <code>
+    const smallestDivisor = (num) => {
+        if (num === 1) {
+            return num;
+        }
+
+        const iter = (del) => {
+            if (num % del === 0 || num === del) {
+                return del;
+            }
+            return iter(del + 1);
+        }
+        return iter(2);
+    }
+    </code>
+    </pre>
+
+                </div>
+                <div class="eng">
+                    <h3>English</h3>
+                    <p>A2 Pre-Intermediate</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="logo">
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rolingscopesschool" class="logo-rss"></a>
+        </div>
+    </footer>
+</body>
+</html>

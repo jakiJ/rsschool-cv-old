@@ -1,0 +1,100 @@
+html {
+    background: #C8F4FF url(./img/clouds.jpg) repeat;
+}
+
+body {
+        font-family: Georgia;
+        font-size: 16px;
+        margin: 0 auto;
+        max-width: 1000px;
+        line-height: 1.5;
+        background-color: rgba(251, 243,250, 0.7);
+}
+
+/*HEADER*/
+
+.my-name-foto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.my-foto-s {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 30%;
+    padding: 10px;
+}
+
+/*MAIN*/
+
+.main-section {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+p {
+    padding-left: 10px;
+}
+
+.block-left {
+    border-right: 7px solid #000;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+h3 {
+    font-size: 27px;
+}
+
+.about {
+    padding-bottom: 50px;
+}
+
+.contact li {
+    display: flex;
+    align-items: center;
+}
+
+li img {
+    margin-right: 10px;
+}
+
+.block-right {
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.skills ul {
+    padding-left: 10px;
+}
+pre {
+    font-family: monospace;
+}
+
+.eng p {
+    padding-left: 10px;
+}
+
+/*FOOTER*/
+
+.logo {
+    margin: 0 auto;
+    width: 100px;
+    max-height: 100px;
+}
+
+.logo-rss {
+    max-width: 150px;
+    max-height: 50px;
+
+}
