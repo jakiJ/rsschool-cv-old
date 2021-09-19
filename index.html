@@ -66,16 +66,17 @@
 
                     <pre>
                         <code>
-    const smallestDivisor = (num) => {
+const smallestDivisor = (num) => {
         if (num === 1) {
             return num;
         }
 
-        const iter = (del) => {
-            if (num % del === 0 || num === del) {
-                return del;
-            }
-            return iter(del + 1);
+const iter = (del) => {
+        if (num % del === 0
+            || num === del) {
+            return del;
+        }
+        return iter(del + 1);
         }
         return iter(2);
     }

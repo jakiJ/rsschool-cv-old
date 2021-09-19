@@ -20,11 +20,11 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 2.5em;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 2em;
 }
 
 .my-foto-s {
@@ -32,6 +32,24 @@ h2 {
     max-height: 200px;
     border-radius: 30%;
     padding: 10px;
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 12px;
+    }
+    .my-name-foto {
+        flex-direction: column-reverse;
+    }
+
+    .main-section {
+        flex-direction: column;
+    }
+
+    .block-left {
+        border-right: 0px solid white;
+    }
+
 }
 
 /*MAIN*/
@@ -47,7 +65,7 @@ p {
 }
 
 .block-left {
-    border-right: 7px solid #000;
+    /* border-right: 7px solid #000; */
     box-sizing: border-box;
     padding: 15px;
 }
