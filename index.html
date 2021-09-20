@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV_Aminova_Julia</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel='stylesheet' href="./style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+    <header class="header">
+        <section class="section-header">
+            <div class="my-name-foto">
+                <div>
+                    <h1 class="my-name">Julia Aminova</h1>
+                    <h2>Frontend developer</h2>
+                </div>
+                <figure class="my-foto">
+                    <img src="./img/pig1.png" alt="portrait of me" class="my-foto-s">
+                </figure>
+            </div>
+        </section>
+        <nav class="burger">
+            <img src="./img/burger.png" alt="icon-burger" class="img-burger">
+            <img src="./img/close.png" alt="icon-close" class="img-close">
+            <ul class="burger-menu">
+                <li class="item-burg"><a href="#about">About me</a></li>
+                <li class="item-burg"><a href="#contact">Contacts</a></li>
+                <li class="item-burg"><a href="#skills">My skills</a></li>
+                <li class="item-burg"><a href="#code">Code example</a></li>
+                <li class="item-burg"><a href="#eng">English</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main-section">
+
+            <div class="block-left">
+                <div class="about" id="about">
+                    <h3>About me</h3>
+                    <p>
+                            I like describe our life with help 'Markov property'.
+                            Of tell simple words this property says:
+                            future state depend of present state and undepend of past.
+                    </p>
+                </div>
+                <div class="contact" id="contact">
+                    <h3>Contacts</h3>
+                    <ul>
+                        <li>
+                            <img src="./img/mail.png" alt="mail">
+                            <a href='s98435@yandex.ru'>s98435@yandex.ru</a>
+                        </li>
+                        <li>
+                            <img src="./img/phone.png" alt="phonenumber">
+                            <p>+7-982-782-70-84</p>
+                        </li>
+                        <li>
+                            <img src="./img/github.png" alt="github">
+                            <a href="https://github.com/jakiJ">jakiJ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="block-right">
+                <div class="skills" id="skills">
+                    <h3>My skills</h3>
+                    <ul>
+                        <li>Study and improve: HTML | CSS | JS | Git | ..</li>
+                        <li>Workspace: VS Code</li>
+                    </ul>
+                </div>
+                <div class="code" id="code">
+                    <h3>Code example</h3>
+
+                    <pre>
+                        <code>
+const smallestDivisor = (num) => {
+        if (num === 1) {
+            return num;
+        }
+
+const iter = (del) => {
+        if (num % del === 0
+            || num === del) {
+            return del;
+        }
+        return iter(del + 1);
+        }
+        return iter(2);
+    }
+    </code>
+    </pre>
+
+                </div>
+                <div class="eng" id="eng">
+                    <h3>English</h3>
+                    <p>A2 Pre-Intermediate</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="year">2021</div>
+        <div class="logo">
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rolingscopesschool" class="logo-rss"></a>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
