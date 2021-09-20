@@ -24,12 +24,23 @@
                 </figure>
             </div>
         </section>
+        <section class="burger">
+            <img src="./img/burger.png" alt="icon-burger" class="img-burger">
+            <img src="./img/close.png" alt="icon-close" class="img-close">
+            <ul class="burger-menu">
+                <a href="#about"><li class="item-burg">About me</li></a>
+                <a href="#contact"><li class="item-burg">Contacts</li></a>
+                <a href="#skills"><li class="item-burg">My skills</li></a>
+                <a href="#code"><li class="item-burg">Code example</li></a>
+                <a href="#eng"><li class="item-burg">English</li></a>
+            </ul>
+        </section>
     </header>
     <main>
         <section class="main-section">
 
             <div class="block-left">
-                <div class="about">
+                <div class="about" id="about">
                     <h3>About me</h3>
                     <p>
                             I like describe our life with help 'Markov property'.
@@ -37,7 +48,7 @@
                             future state depend of present state and undepend of past.
                     </p>
                 </div>
-                <div class="contact">
+                <div class="contact" id="contact">
                     <h3>Contacts</h3>
                     <ul>
                         <li>
@@ -57,14 +68,14 @@
             </div>
 
             <div class="block-right">
-                <div class="skills">
+                <div class="skills" id="skills">
                     <h3>My skills</h3>
                     <ul>
                         <li>Study and improve: HTML | CSS | JS | Git | ..</li>
                         <li>Worckspace: VS Code</li>
                     </ul>
                 </div>
-                <div class="code">
+                <div class="code" id="code">
                     <h3>Code example</h3>
 
                     <pre>
@@ -87,7 +98,7 @@ const iter = (del) => {
     </pre>
 
                 </div>
-                <div class="eng">
+                <div class="eng" id="eng">
                     <h3>English</h3>
                     <p>A2 Pre-Intermediate</p>
                 </div>
@@ -100,5 +111,6 @@ const iter = (del) => {
             <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rolingscopesschool" class="logo-rss"></a>
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
