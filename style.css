@@ -1,5 +1,6 @@
 html {
     background: #C8F4FF url(./img/clouds.jpg) repeat;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -11,7 +12,15 @@ body {
         background-color: rgba(251, 243,250, 0.7);
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /*HEADER*/
+.header {
+    position: relative;
+}
 
 .my-name-foto {
     display: flex;
@@ -20,11 +29,11 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 2.5em;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 2em;
 }
 
 .my-foto-s {
@@ -32,6 +41,56 @@ h2 {
     max-height: 200px;
     border-radius: 30%;
     padding: 10px;
+}
+
+/*BURGER*/
+.burger {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: none;
+    background-color: rgba(251, 243,250, 0.7);;
+}
+
+.burger-menu {
+    list-style: none;
+    font-size: 2.5em;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (max-width: 767px) {
+    body {
+        font-size: 12px;
+    }
+    .my-name-foto {
+        flex-direction: column-reverse;
+    }
+
+    .main-section {
+        flex-direction: column;
+    }
+
+    .block-left {
+        border-right: 0px solid white;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .burger {
+        display: block;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .img-close {
+        display: none;
+    }
 }
 
 /*MAIN*/
@@ -47,7 +106,7 @@ p {
 }
 
 .block-left {
-    border-right: 7px solid #000;
+    /* border-right: 7px solid #000; */
     box-sizing: border-box;
     padding: 15px;
 }
